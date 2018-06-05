@@ -1,0 +1,49 @@
+$(function() {
+    $(".slide").hover(
+      function(){
+       $(".box").css("margin-right",20);
+       $(".box").css("background-color","#cccccc");
+  },
+      function(){
+        $(".box").css("margin-right",50);
+        $(".box").css("background-color","#202124");
+});
+
+      $(".h").hover(
+          function(){
+           $("#S").css({
+             "opacity":0,
+             'left':28
+          });
+            $("#w").css({
+            'left': 38
+          });
+           $("#roop").css({
+             "opacity":0,
+             'left':50
+           });
+           $("#dot").css({
+             'left':52
+});
+      },
+          function(){
+            $("#S").css({
+              "opacity":1,
+              'position':'absolute',
+              'left':0
+              });
+              $("#w").css({
+                'position':'absolute',
+                'left':11
+                });
+             $("#roop").css({
+               "opacity":1,
+               'position':'absolute',
+               "left":24
+                });
+             $("#dot").css({
+               'position':'absolute',
+               'left':71
+        });
+    });
+});

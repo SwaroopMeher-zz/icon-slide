@@ -1,0 +1,71 @@
+.slide{
+  max-width: 350px;
+  margin: auto;
+  border: 1px solid #cccccc;
+  height:auto;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #cccccc;
+}
+.box{
+  float: right;
+  width: 20px;
+  height:20px;
+  background-color: #202124;
+  margin-right: 50px;
+  border-radius:20%;
+  transition: margin-right 0.5s;
+}
+.hover{
+  font-family: sans-serif;
+  display: inline;
+  margin-left: 15px;
+}
+.logo{
+
+  font-family: sans-serif;
+  font-weight: bold;
+  overflow: visible;
+  margin:20px auto;
+height: 20px;
+width:100px;
+position: relative;
+padding: 0 auto;
+}
+#S{
+  opacity: 1;
+  transition: all 0.5s;
+  position: absolute;
+  left:0;
+}
+#w{
+  transition: all 0.5s;
+  z-index: 1;
+  color: red;
+  position: absolute;
+  left:11px;
+}
+#roop{
+  opacity: 1;
+  transition: all 0.5s;
+  position: absolute;
+  left:24px;
+}
+#dot{
+  transition: all 0.5s;
+  z-index: 1;
+  color: red;
+  position: absolute;
+  left:71px;
+}
+.h{
+  border: solid;
+  width:50%;
+  border: 1px solid #cccccc;
+  height:auto;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #cccccc;
+  font-family: Ubuntu;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
